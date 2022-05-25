@@ -1,0 +1,406 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family:"Montserrat";
+}
+body{
+    overflow-x: hidden;
+}
+/* PRIMERA SECCION: NUESTROS SERVICIOS*/
+.seccion{
+    padding-left: 0;
+    padding-right: 0;
+    height: auto;
+    position: relative;
+}
+.seccion div{
+    width: 50%;
+    padding: 0;
+    background-color: rgb(246, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    opacity: 100%;
+    transition: 0.5s;
+}
+.seccion div > div{
+    width: auto;
+    height: auto;
+}
+.div-seccion{
+    /*display: none;*/
+    position: relative;
+    float: right;
+    right: -80%;
+    
+    
+}
+.div1-seccion{
+    /*display: none; */
+    position: relative;
+    left: -80%;
+}
+.divInfo-seccion{
+    transform: none;
+}
+.divInfo-seccion:hover{
+    transform: none;
+}
+.seccion div:hover{
+    opacity: 90%;
+    transition: 0.5s;
+}
+/*SEGUNDA SECCION ( INFO SERVICIOS )*/
+.seccion1{
+    display:block;
+    border-bottom: 1px grey solid;
+    font-family: "Montserrat";
+    font-size: 20px;
+}
+/*INFO DE SERVICIOS Y PRESUPUESTO*/
+.txtTransporte, .txtMudanzas, .txtGuardamuebles, .formPresupuesto{
+    display:none;
+    padding-top: 7.5%;
+    padding-bottom: 5%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+.imagenesServicio{
+    margin-top: 7.5%;
+    background: white;
+    text-align: center;
+}
+.imagenesServicio > div{
+    position: relative;
+    display: inline-block;
+    height: 150px;
+    width: auto;
+}
+.imagenesServicio > div > img{
+    border-radius: 10px;
+    border: 1px grey solid;
+}
+#btnContactar{
+    /*left: -100%;*/
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 20%;
+    padding: 20px;
+    background: blue;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    margin-bottom: 50px;
+    transform: scale(1.0,1.0);
+    transition: 0.2s;
+    cursor: pointer;
+}
+#btnContactar:hover, #btnContactar:active{
+    transform: scale(1.2,1.2);
+    transition: 0.2s;
+}
+#img21{
+    width:100%;
+    text-align:center;
+}
+.seccionClientes{
+    display:block;
+    margin-top: 50px;
+    background-color: whitesmoke;
+    padding: 5%;
+    text-align:center;  
+}
+.seccionClientes > h1{
+    display:none;
+    color: black;
+    margin-bottom: 5%;
+    font-size: 30px;
+}
+.seccionClientes > ul{
+    display:none;
+}
+.seccionClientes ul li {
+    display:inline-block;
+    padding: 5px;
+    margin: 5px;
+    transform: scale(1.0,1.0);
+    transition: 0.2s;
+}
+.seccionClientes ul li:hover {
+    transform: scale(1.2,1.2);
+    transition: 0.2s;
+}
+.seccionClientes ul li img{
+    height: 60px;
+}
+/*TERCER SECCION*/
+.seccion2{
+    position: relative;
+    padding: 7.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.seccion2 p{
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    padding: 2%;
+}
+.seccion2 p h2{
+    color: #7272df;
+    font-size: 27px;
+    margin-bottom:8px;
+}
+.p1seccion2, .p2seccion2{
+    opacity: 0;
+    position: relative;
+    left: -150%;
+}
+.p-Horarios{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.p-Horarios h2{
+    color: #7272df;
+    font-size: 27px;
+}
+.p-Horarios p{
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    padding: 2%;
+}
+/*OTROS*/
+.hablarWSPYA{
+    width: 5%;
+    height:auto;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    cursor: pointer;
+    z-index: 2;
+}
+.hablarWSPYA:hover, .hablarWSPYA:active{
+    transform: scale(1.2,1.2);
+}
+.irArriba{
+    display:none;
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 2%;
+    bottom: 2%;
+    cursor: pointer;
+    z-index: 2;
+}
+.irArriba:hover, .irArriba:active {
+    color: rgb(0, 0, 0);
+    transform: scale(1.2,1.2);
+}
+footer{
+    border-top: 1px grey solid;
+    padding: 50px;
+    background-color: white;
+}
+footer p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: large;
+}
+footer p a{
+    color:black;
+}
+
+/*ESPECIAL: txt,img*/
+#h1-seccion{
+    display:none;
+    width: 100%;
+    border-bottom: 1.3px rgb(69, 69, 69) solid;
+    cursor: default;
+}
+#h1-seccion > #txt1{
+    text-align: center;
+    background: whitesmoke;
+    font-family: "Montserrat";
+    color:blue;
+    cursor: default;
+}
+#h1-seccion > #txt1 > h2{
+    position: relative;
+    font-size: 50px;
+    line-height: 143px;
+    top: -12px;
+}
+#txt7 h2, #txt11 h2, #txt13 h2{
+    color: #6868ce;
+    font-size:40px;
+    margin:auto;
+    margin-bottom: 15px;
+}
+#txt9 h2, #txt10 h2, #txt12 h2, #txt14 h2{
+    font-size:25px;
+}
+#txt8 p{
+    margin-top: 15px;
+}
+
+
+
+
+
+
+/*PANTALLAS MENORES A 1080px DE ANCHO*/
+@media screen and (max-width: 1080px){
+     /* PRIMERA SECCION: NUESTROS SERVICIOS*/
+     .seccion{
+        padding-left: 0;
+        padding-right: 0;
+        height: auto;
+        position: relative;
+        top: 0;
+    }
+.seccion div{
+    width: 100%;
+    background-color: rgb(246, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transform: scale(1.0,1.0);
+    transition: 0.4s;
+}
+.div-seccion{
+    position: relative;
+    float: none;
+    right: -150%;
+}
+.div1-seccion{
+    position: relative;
+    left: -150%;
+}
+/*SEGUNDA SECCION ( INFO SERVICIOS )*/
+.seccion1{
+    font-size: small;
+}
+.imagenesServicio > div{
+    position: relative;
+    display: inline-block;
+    height: 60px;
+    min-width: 49%;
+}
+.imagenesServicio > div > img{
+    border-radius: 10px;
+    border: 1px grey solid;
+}
+#btnContactar{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    padding: 8px;
+    font-size: 100%;
+    border-radius: 5px;
+    top: 20px;
+    bottom: 20px;
+}
+.seccionClientes{
+    display:block;
+    margin-top: 0px;
+    background-color: whitesmoke;
+    padding: 5%;
+}
+.seccionClientes > h1{
+    color: black;
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+.seccionClientes ul li {
+    display:inline-block;
+    padding: 5px;
+    margin: 5px;
+    transform: scale(1.0,1.0);
+    transition: 0.2s;
+    
+}
+.seccionClientes ul li:hover {
+    transform: scale(1.0,1.0);
+    transition: 0.2s;
+}
+.seccionClientes ul li img{
+    height: 30px;
+}
+/*TERCER SECCION*/
+.seccion2{
+    position: relative;
+    padding: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-bottom: 0;
+}
+.seccion2 p{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.p1seccion2, .p2seccion2{
+    opacity: 0;
+    position: relative;
+    left: -150%;
+}
+.p2seccion2{
+    float:none;
+}
+.p-Horarios{
+    font-size: 10px;
+}
+.hablarWSPYA{
+    width: 10%;
+    z-index:1;
+}
+.irArriba{
+    display:none;
+    font-size: 40px;
+    z-index:1;
+}
+footer{
+    border-top: 1px grey solid;
+    padding: 20px;
+    background-color: white;
+}
+footer p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: small;
+}
+footer p a{
+    color:black;
+}
+
+
+
+/*ESPECIAL: txt,img*/
+#h1-seccion > #txt1 > h2{
+    font-size: 30px;
+    line-height: 100px;
+}
+#txt7 h2, #txt11 h2, #txt13 h2{
+    font-size:30px;
+    text-align:center;
+}
+#txt9 h2, #txt10 h2, #txt12 h2, #txt14 h2{
+    font-size:20px;
+}
+/*TODO ELEMENTO QUE NO SE DESEE MOSTRAR EN ESTA ADAPTACION SERÁ NOMBRADO CON ESTA CLASE*/
+#deleteElement{
+    display:none;
+}
+}

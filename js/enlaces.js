@@ -1,0 +1,28 @@
+$('.icon-mail4').click(()=>{
+    window.location.href="mailto:bgatransporte@yahoo.com.ar";
+});
+$('.icon-facebook').click(()=>{
+    window.location.href="https://www.facebook.com/bgatransporte";
+});
+$('.icon-facebook2').click(()=>{
+    window.location.href="https://www.facebook.com/bgatransporte";
+});
+$('.icon-instagram').click(()=>{
+    window.location.href="https://www.instagram.com/bgatransporte";
+});
+$('.icon-whatsapp').click(()=>{
+    window.location.href="https://wa.me/5493434549329";
+});
+
+$('.phone').click(()=>{
+    window.location.href="https://wa.me/5493434549329";
+});
+$('.mail4').click(()=>{
+    window.location.href="mailto:bgatransporte@yahoo.com.ar";
+});
+$('.facebook2').click(()=>{
+    window.location.href="https://www.facebook.com/bgatransporte";
+});
+$('.instagram').click(()=>{
+    window.location.href="https://www.instagram.com/bgatransporte";
+});
