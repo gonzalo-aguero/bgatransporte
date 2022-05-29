@@ -5,7 +5,7 @@
                     $asuntoCon = $_POST['asuntoCon'];
                     $msgCon = "Nombre: ".$nameCon."\r\n".$_POST['msgCon'];
                     $emailClientCon = $_POST['emailCon'];
-                    $emailCon = "bgatransporte@yahoo.com.ar";
+                    $emailCon = "gonzaloaguerodev@gmail.com";
 
                     $header = "From: ".$emailClientCon. "\r\n";
                     $header .= "Reply-To: ".$emailClientCon. "\r\n";

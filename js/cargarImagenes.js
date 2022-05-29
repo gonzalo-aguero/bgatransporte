@@ -10,7 +10,7 @@ function cargarImagenes(idEImg){
         data: { operation: operation, idEImg: idEImg },
         success: function (response){
             if(response == 'noConnection'){
-                alert('Lo siento, no se ha podido conectar a la base de datos. Por favor, comuníquese con el propietario del sitio.');
+                console.log('Lo siento, no se ha podido conectar a la base de datos. Por favor, comuníquese con el propietario del sitio.');
             }else{
                 colocarImagenes(idEImg,response);
                 //console.log("Imágenes cargadas: \n"+response);
@@ -28,7 +28,7 @@ function contarImagenes(){
         data: { operation: operation },
         success: function (response){
             if(response == 'noConnection'){
-                alert('Lo siento, no se ha podido conectar a la base de datos. Por favor, comuníquese con el propietario del sitio.');
+                console.log('Lo siento, no se ha podido conectar a la base de datos. Por favor, comuníquese con el propietario del sitio.');
             }else{
                 cantRegistros = (response);
                 for(i=1;i<=cantRegistros;i++){

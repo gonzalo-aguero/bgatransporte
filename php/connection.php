@@ -1,16 +1,8 @@
 ﻿<?php
-    //error_reporting(0);
-    //PRUEBAS
-    /*$host = "localhost";
+    $host = "localhost:3306";
     $user = "root";
     $pass = "";
-    $db = "bgatransportebd";*/
-    
-    //REAL
-    $host = "localhost:3306";
-    $user = "lqovlhgf_bga";
-    $pass = "gustavobgatransporte250";
-    $db = "lqovlhgf_bgatransportebd";
+    $db = "bga_transporte";
     $connection = mysqli_connect($host,$user,$pass,$db);
     mysqli_set_charset($connection, "utf8");
 ?>
